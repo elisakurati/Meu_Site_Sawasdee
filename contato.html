@@ -5,14 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="imagens/SF.png">
-    <title>Sawasdee Fansub</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <title>Contato - Sawasdee Fansub</title>
 </head>
 <body>
-    
     <div class="container">
-
         <div class="hamburguer">
             <div class="lines" id="line1"></div>
             <div class="lines" id="line2"></div>
@@ -23,11 +19,6 @@
         <header>
             <div class="img-wrapper">
                 <img src="imagens/sawasdee.png" alt="Logo do Sawasdee Fansub">
-            </div>
-            <div class="banner">
-                <h1>Seja Bem Vindo ao Sawasdee Fansub</h1>
-                <p>Seu Site de Lakorns Antigos e Atuais</p>
-                <button>Saiba mais sobre nosso site</button>
             </div>
         </header>
 
@@ -47,9 +38,26 @@
 
             </div>
         </div>
+        <div class="contact-form">
+            <form action="#">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <footer>
+            <p><a href="index.html">Voltar para a página inicial</a></p>
+        </footer>
     </div>
 
     <script src="script.js"></script>
-    
 </body>
 </html>
