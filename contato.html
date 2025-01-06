@@ -28,18 +28,17 @@
                     <li class="menu-item"><a href="index.html" class="menu-link">Início</a></li>
                     <li class="menu-item"><a href="series.html" class="menu-link">Séries</a></li>
                     <li class="menu-item"><a href="contato.html" class="menu-link">Contato</a></li>
-
                 </ul>
             </nav>
             <div class="social-media">
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-telegram"></i></a>
                 <a href="#"><i class="fab fa-tiktok"></i></a>
-
             </div>
         </div>
+
         <div class="contact-form">
-            <form action="#">
+            <form action="https://api.staticforms.xyz/submit" method="post">
                 <label for="name">Nome:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -50,12 +49,12 @@
                 <textarea id="message" name="message" rows="4" required></textarea>
 
                 <button type="submit">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="b26dee41-042b-46fe-8936-3670a875e482">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
             </form>
         </div>
 
-        <footer>
-            <p><a href="index.html">Voltar para a página inicial</a></p>
-        </footer>
     </div>
 
     <script src="script.js"></script>
