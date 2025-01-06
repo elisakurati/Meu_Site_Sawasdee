@@ -244,8 +244,8 @@ header {
 }
 
 .sidebar{
-    width: 20rem;
-    height: 100vh;
+    width: 8rem;
+    height: 80vh;
     position: fixed;
     top: 0;
     right: -20rem;
@@ -423,4 +423,3 @@ header {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
